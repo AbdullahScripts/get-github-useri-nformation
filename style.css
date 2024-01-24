@@ -17,9 +17,52 @@ header h1{
 
 /* container stylin    */
 
+.container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
 
+.parts{
+    padding: 20px;
+    width: 50%;
+}
 
+input{
+    border: 1px solid rgb(27, 9, 147);
+    height: 50px;
+    width: 400px;
+    margin-top: 200px;
+    
+}
+input:focus {
+    border-color: #007bff;
+  }
+button{
+    height: 50px;
+    padding: 10px;
+    margin-top: 20px;
+    display: block;
+    /* margin: auto; */
+    width: 250px;
+    background-color: rgba(89, 89, 220, 0.924);
+    color: white;
+    font-size: x-large;
+    border: none;
+}
 
+/* showing detail  */
 
+.img{
+    border-radius: 50%;
+
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+img{
+    width: 100%;
+}
 
 
