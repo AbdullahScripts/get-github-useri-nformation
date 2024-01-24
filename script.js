@@ -21,7 +21,7 @@ window.onload =async function() {
     followers.innerHTML=`Followers: ${dataa.followers}`
     following.innerHTML=`Following: ${dataa.following}`
     namee.innerHTML=`Name: ${dataa.name}`
-    view.href=`${dataa.url}`
+    view.href=`${dataa.html_url}`
     reops.innerHTML=`Public Repositories: ${dataa.public_repos}`
     
 
